@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 SCRIPT=$(readlink -f "$0")
 SCRIPTPATH=$(dirname "$SCRIPT")
@@ -6,6 +6,7 @@ AEROOT=$SCRIPTPATH/..
 OUTPATH=$AEROOT/output
 DATPATH=$AEROOT/dataset
 
+echo $AEROOT/figures/common.sh
 source $AEROOT/figures/common.sh
 
 echo "==== Groute: Figure 10a (BFS) ===="

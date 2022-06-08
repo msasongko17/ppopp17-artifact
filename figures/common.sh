@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Set timeout for benchmarks
 TIMEOUT="timeout 2h"

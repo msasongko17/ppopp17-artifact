@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Sets up environment for artifact evaluation
 
